@@ -64,6 +64,15 @@ pip install -r requirements.txt
 
 Cleaned `requirements.txt` to only list top-level dependencies (removed transitive sub-dependencies) and re-ran `pip install -r requirements.txt` successfully.
 
+
+### Problem 2: Git Initialization and Nested Repositories
+
+** Error: ** When trying to link my local VS Code folder to the empty GitHub repository, I encountered a fatal: not a git repository error and risked creating a "Git Inception" (a repo inside a repo) because I cloned the course materials incorrectly.
+
+** Solution: ** I isolated my Lab 0 folder completely outside the course repository. I initialized a fresh git instance (git init), added the correct remote origin (git remote add origin <URL>), and ensured my .gitignore was configured before making the first commit, preventing the massive .venv folder from uploading to GitHub.
+
+
+
 ---
 
 ## (f) Expected Outputs

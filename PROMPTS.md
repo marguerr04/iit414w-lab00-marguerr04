@@ -54,3 +54,17 @@ Interaction 4: Jolpica API JSON Extraction
 5. Adaptations: Removed the function wrapper to keep the data variables in the global notebook scope. I also explicitly added the .json extension to the endpoint URL to guarantee the correct response format.
 
 6. Final Decision: Partially used (Modified). The AI's defensive extraction logic was kept, but the architecture was flattened to better fit a sequential Jupyter Notebook execution.
+
+Interaction 4: Creating a ste-step documentation guide
+
+1. Context: Deliver a document and step by step plan to install and run the project for a new user with no knloedge
+
+2. Prompt(s): "In based in the Project and running celds, Create a 'README.md' document where in based in my operating system windows and the file requirements.txt , include the exact shell comands to download the repository and run the two notebooks, my github repository: 'https://github.com/marguerr04/iit414w-lab00-marguerr04' "
+
+3. Relevant Output: A stet-by-step document for preparation and installation
+
+4. Validation: Review the preparation, compare with the information of my repositoryl, also uninstall my virtual enviroment and follow the guide to check for errors
+
+5. Adaptations: I added some information and tipping corrections in the README.md, correct names, and a little comments to give more clarify.
+
+6. Final Decision: Partially used (Modified) , The AI give me a guide to setup and run my enviroment, fixin the possible errors, I read the outpout and modify adding more information or details.
