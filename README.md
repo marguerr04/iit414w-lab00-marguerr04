@@ -67,16 +67,16 @@ Cleaned `requirements.txt` to only list top-level dependencies (removed transiti
 
 ### Problem 2: Git Initialization and Nested Repositories
 
-** Error: ** When trying to link my local VS Code folder to the empty GitHub repository, I encountered a fatal: not a git repository error and risked creating a "Git Inception" (a repo inside a repo) because I cloned the course materials incorrectly.
+**Error:** When trying to link my local VS Code folder to the empty GitHub repository, I encountered a fatal: not a git repository error and risked creating a "Git Inception" (a repo inside a repo) because I cloned the course materials incorrectly.
 
-** Solution: ** I isolated my Lab 0 folder completely outside the course repository. I initialized a fresh git instance (git init), added the correct remote origin (git remote add origin <URL>), and ensured my .gitignore was configured before making the first commit, preventing the massive .venv folder from uploading to GitHub.
+**Solution:** I isolated my Lab 0 folder completely outside the course repository. I initialized a fresh git instance (git init), added the correct remote origin (git remote add origin <URL>), and ensured my .gitignore was configured before making the first commit, preventing the massive .venv folder from uploading to GitHub.
 
 
 ### Problem 3: Jupyter Kernel Silent Freeze (Infinite Loading)
 
-** Error: **  After successfully setting up the environment, running even a simple cell (like print('hola')) in setup_check.ipynb resulted in an infinite execution state (the cell showed [*] forever) with no error output. Meanwhile, the other notebook worked fine, indicating a silent communication lock between VS Code and the Python kernel.
+**Error:**  After successfully setting up the environment, running even a simple cell (like print('hola')) in setup_check.ipynb resulted in an infinite execution state (the cell showed [*] forever) with no error output. Meanwhile, the other notebook worked fine, indicating a silent communication lock between VS Code and the Python kernel.
 
-** Solution: ** I performed a hard reset of the kernel communication. I closed Visual Studio Code entirely, opened the Windows Task Manager to manually kill all lingering background python.exe processes, and deleted the hidden .ipynb_checkpoints folder to clear the corrupted cache. Upon restarting VS Code, the kernel connected instantly.
+**Solution:** I performed a hard reset of the kernel communication. I closed Visual Studio Code entirely, opened the Windows Task Manager to manually kill all lingering background python.exe processes, and deleted the hidden .ipynb_checkpoints folder to clear the corrupted cache. Upon restarting VS Code, the kernel connected instantly.
 
 
 ---

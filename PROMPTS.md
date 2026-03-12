@@ -55,7 +55,7 @@ Interaction 4: Jolpica API JSON Extraction
 
 6. Final Decision: Partially used (Modified). The AI's defensive extraction logic was kept, but the architecture was flattened to better fit a sequential Jupyter Notebook execution.
 
-Interaction 4: Creating a ste-step documentation guide
+Interaction 5: Creating a ste-step documentation guide
 
 1. Context: Deliver a document and step by step plan to install and run the project for a new user with no knloedge
 
@@ -71,7 +71,7 @@ Interaction 4: Creating a ste-step documentation guide
 
 
 
-Interaction 5: Implementing an Additional System Check (Disk Space)
+Interaction 6: Implementing an Additional System Check (Disk Space)
 
  1. Context: I needed to complete the "YOUR TURN" section in the setup_check.ipynb notebook, which asked to write one additional system check to support reproducibility. I decided to check the available disk space, as large datasets require sufficient memory.
  
