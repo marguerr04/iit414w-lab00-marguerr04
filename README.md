@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ## (d) How to Run
 
-1. Open the project folder in **VS Code**.
+1. Open the project folder in **VS Code**, make sure to go to File -> Open folder -> IIT414W-LAB00-MARGUERR04 
 2. Select the `.venv` Python interpreter as your Kernel (Ctrl+Shift+P → "Python: Select Interpreter" → choose the `.venv` one).
 3. Run **`setup_check.ipynb`** first: Kernel → **Restart & Run All**.
 4. Then run **`data_check.ipynb`**: Kernel → **Restart & Run All**.

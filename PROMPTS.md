@@ -71,7 +71,7 @@ Interaction 4: Creating a ste-step documentation guide
 
 
 
-Interaction 5: Implementing an Additional System Check (Disk Space)1.
+Interaction 5: Implementing an Additional System Check (Disk Space)
 
  1. Context: I needed to complete the "YOUR TURN" section in the setup_check.ipynb notebook, which asked to write one additional system check to support reproducibility. I decided to check the available disk space, as large datasets require sufficient memory.
  
@@ -82,3 +82,5 @@ Interaction 5: Implementing an Additional System Check (Disk Space)1.
  4. Validation: I tested the shutil.disk_usage() function in a temporary cell to inspect the raw output and verified that the byte count correctly corresponded to the actual remaining capacity of my Windows hard drive.
  
  5. Adaptations: The AI provided the raw code that outputs data in bytes. I manually built the mathematical operation to transform the bytes into Gigabytes by dividing by $10^9$ (/ (10**9)). I also added the string formatting (:.2f GB) to make it human-readable 
+
+6. Final Decision: Partially used (Modified). I used the AI to discover the correct built-in Python library (shutil), but I independently wrote the unit conversion logic
